@@ -1,0 +1,9 @@
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (1, 'Samsung', 6, 'Android', 'Mobile', 128);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (2, 'Apple', 6, 'iOS', 'Mobile', 256);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (3, 'Huawei', 6, 'Android', 'Mobile', 64);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (4, 'Xiaomi', 6, 'Android', 'Mobile', 128);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (5, 'Motorola', 6, 'Android', 'Mobile', 32);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (6, 'Sony', 5, 'Android', 'Mobile', 64);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (7, 'LG', 6, 'Android', 'Mobile', 32);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (8, 'OnePlus', 6, 'Android', 'Mobile', 256);
+INSERT INTO celular (id, marca, pantalla, soperativo, toperativo, almacenamiento) VALUES (9, 'Google', 6, 'Android', 'Mobile', 128);
