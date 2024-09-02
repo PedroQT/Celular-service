@@ -15,8 +15,8 @@ public class CelularRestController {
     private CelularServiceImpl celularService; // Inyecto el servicio de la entidad Pais para realizar las operaciones CRUD
 
     /**
-     * Este metodo se encarga de retornar una lista de todos los paises
-     * @return retorna una lista de todos los paises
+     * Este metodo se encarga de retornar una lista de todos los celulares
+     * @return retorna una lista de todos los celulares
      */
     @GetMapping("/celular")
     public List<Celular> listar() {
@@ -24,9 +24,9 @@ public class CelularRestController {
     }
 
     /**
-     * Este metodo se encarga de retornar un pais por su id y se mapea con la url /api/pais-service/paises/{id}
-     * @param id es el id del pais a buscar
-     * @return retorna un pais por su id
+     * Este metodo se encarga de retornar un celular por su id y se mapea con la url /api/celular-service/celular/{id}
+     * @param id es el id del celular a buscar
+     * @return retorna un celular por su id
      */
     @GetMapping("/celular/{id}")
     public Celular buscarCelular(@PathVariable Long id) {
@@ -34,9 +34,9 @@ public class CelularRestController {
     }
 
     /**
-     * Este metodo guarda un pais y me retorna el objeto de tipo Pais ya guardado con su id asignado
+     * Este metodo guarda un celular y me retorna el objeto de tipo Celular ya guardado con su id asignado
      * @param celular es el objeto de tipo Pais a guardar (sin el id)
-     * @return retorna el objeto de tipo Pais guardado con su id asignado
+     * @return retorna el objeto de tipo Celular guardado con su id asignado
      */
     @PostMapping("/celular")
     public Celular guardarCelular(@RequestBody Celular celular) {
@@ -44,9 +44,9 @@ public class CelularRestController {
     }
 
     /**
-     * Este metodo actualiza un pais y me retorna el objeto de tipo Pais ya actualizado
-     * @param celular es el objeto de tipo Pais a actualizar (con el id)
-     * @return retorna el objeto de tipo Pais actualizado
+     * Este metodo actualiza un celular y me retorna el objeto de tipo Celular ya actualizado
+     * @param celular es el objeto de tipo Celular a actualizar (con el id)
+     * @return retorna el objeto de tipo Celular actualizado
      */
     @PutMapping("/celular")
     public Celular actualizarCelular(@RequestBody Celular celular) {
@@ -54,8 +54,8 @@ public class CelularRestController {
     }
 
     /**
-     * Este metodo elimina un pais por su id
-     * @param id es el id del pais a eliminar
+     * Este metodo elimina un celular por su id
+     * @param id es el id del celular a eliminar
      */
     @DeleteMapping("/celular/{id}")
     public void eliminarCelular(@PathVariable Long id) {
